@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Main Camera Profile 1
   m_EditorClassIdentifier: 
   settings:
-  - {fileID: 2448442230411270638}
---- !u!114 &2448442230411270638
+  - {fileID: 7706554227150802007}
+--- !u!114 &7706554227150802007
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23,22 +23,41 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 556797029e73b2347956b6579e77e05b, type: 3}
-  m_Name: DepthOfField
+  m_Script: {fileID: 11500000, guid: 48a79b01ea5641d4aa6daa2e23605641, type: 3}
+  m_Name: Bloom
   m_EditorClassIdentifier: 
   active: 1
   enabled:
     overrideState: 1
     value: 1
-  focusDistance:
+  intensity:
     overrideState: 1
-    value: 5
-  aperture:
+    value: 19.14
+  threshold:
     overrideState: 1
-    value: 5.6
-  focalLength:
+    value: 0
+  softKnee:
     overrideState: 1
-    value: 50
-  kernelSize:
+    value: 0
+  clamp:
+    overrideState: 1
+    value: 65520.1
+  diffusion:
+    overrideState: 1
+    value: 4.6
+  anamorphicRatio:
+    overrideState: 1
+    value: 0.16
+  color:
+    overrideState: 1
+    value: {r: 0, g: 0.55808914, b: 0.7924528, a: 1}
+  fastMode:
     overrideState: 0
-    value: 1
+    value: 0
+  dirtTexture:
+    overrideState: 0
+    value: {fileID: 0}
+    defaultState: 1
+  dirtIntensity:
+    overrideState: 0
+    value: 0
